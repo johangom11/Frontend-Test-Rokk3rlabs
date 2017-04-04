@@ -1,0 +1,38 @@
+.collection.nm{
+  margin: 0px;
+}
+.collection.nav-less{
+  border:none;
+}
+
+.collection.nav-less a,.collection.nav-less li {
+  border-bottom: 1px solid transparent;
+  background: #2f323a;
+  color: #ffffff;
+}
+
+.collection.nav-less i{
+  color: #5c9DF5;
+}
+
+.collection.nav-less a{
+  cursor: pointer;
+}
+.collection.nav-less li{
+  cursor: default;;
+}
+.collection.nav-less i,.collection.nav-less span{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+
+}
+
+.collection.nav-less li.collection-header{
+  border-bottom: 1px solid #373b42;
+  color: #575a5f;
+}
+
+.collection.nav-less a.collection-item:not(.active):hover {
+  background-color: #393c46;
+}

@@ -1,0 +1,33 @@
+<div class="dashboard grey lighten-5">
+
+    <div class="dashboard-nav hide-on-small-only">
+        <nav class="nav-brand z-depth-0">
+            <div class="nav-wrapper center-align">
+                <div>
+                    <img class="nav-aside-logo" src="assets/images/r-3-l-logo-application-02.png"  />
+                    
+                </div>
+            </div>
+        </nav>
+        <app-nav></app-nav>
+    </div>
+
+
+    <div class="dashboard-content">
+        <nav class="nav-main">
+            <div class="nav-wrapper container-dash">
+                <a href="#" data-activates="mobile-nav" class="button-collapse hide-on-med-and-up"><i class="material-icons">menu</i></a>
+                <span class="brand-logo light"></span>
+            </div>
+            <div class="side-nav grey darken-4" id="mobile-nav">
+                <app-nav></app-nav>
+            </div>
+        </nav>
+
+        <div class="content-main">
+            <div class="container-dash">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</div>
